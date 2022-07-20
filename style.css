@@ -42,12 +42,16 @@ section {
   text-decoration: none;
   color: white;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 45px;
+}
+.hero-img-div img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 .hero-img-div {
-  display: inline-block;
-  margin-left: 25%;
-  height: 305px;
+  position: relative;
+  margin: -35px 0 -35px 100px;
 }
 
 /* blog  */
@@ -167,7 +171,7 @@ footer hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 5%;
+    margin: 0 7%;
     padding: 35px 10% 35px 10%;
   }
   .hero-h2,
@@ -181,11 +185,16 @@ footer hr {
     width: 50%;
     margin: 25px auto;
   }
-  .hero-img-div {
-    display: block;
 
-    margin: 0 auto;
-    height: 305px;
+  .hero-img-div img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .hero-img-div {
+    position: relative;
+    margin: 80% 0 -35px 15%;
+    padding-top: 20px;
   }
   .hero-img {
     width: 100%;
