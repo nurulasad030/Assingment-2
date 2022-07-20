@@ -1,0 +1,119 @@
+/* -------- common ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+section {
+  margin: 50px;
+}
+
+/* ------------ hero ------------ */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 4%;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 35px 70px;
+}
+.hero-h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.hero-p {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.hero-btn {
+  display: inline-block;
+  background-color: red;
+  padding: 15px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.hero-img-div {
+  display: inline-block;
+  margin-left: 25%;
+  height: 305px;
+}
+
+/* blog  */
+.blog {
+  display: grid;
+  grid-template-columns: 300px auto;
+  justify-content: center;
+  margin: 0 50px;
+}
+.blog-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.blog-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+.blog-menu-link {
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+.blog-menu3 {
+  background-color: red;
+  color: white;
+}
+.blog-common-div {
+  width: 90%;
+  border: 1px solid gray;
+  margin: 10px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+.blog-img {
+  width: 100%;
+}
+
+.blog-details {
+  padding-left: 10px;
+}
+
+.transfer {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.blog-item {
+  display: flex;
+  align-items: center;
+}
+.blog-item1,
+.blog-item2 {
+  display: flex;
+  margin-right: 50px;
+
+  align-items: center;
+}
