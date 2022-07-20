@@ -213,6 +213,7 @@ footer hr {
   .blog-div {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .blog-common-div {
     width: 100%;
