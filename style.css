@@ -160,9 +160,15 @@ footer hr {
 /* responsive */
 
 @media only screen and (max-width: 688px) {
+  section {
+    margin: 20px;
+  }
   .hero-div {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 0 15%;
+    padding: 35px 10% 35px 10%;
   }
   .hero-h2,
   .hero-p {
@@ -204,6 +210,16 @@ footer hr {
   .blog-div {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .blog-common-div {
+    width: 100%;
+    border: 1px solid gray;
+    margin: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+  }
+  footer {
+    width: 100%;
   }
   .footer-menu {
     display: grid;
