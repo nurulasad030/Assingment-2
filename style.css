@@ -172,7 +172,7 @@ footer hr {
     flex-direction: column;
     width: 100%;
     margin: 0 7%;
-    padding: 35px 10% 35px 10%;
+    padding: 35px;
   }
   .hero-h2,
   .hero-p {
@@ -242,5 +242,48 @@ footer hr {
     color: white;
     font-size: 15px;
     margin: 20px;
+  }
+}
+
+/* tablet */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .hero-div {
+    padding: 35px 20px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img-div img {
+    position: absolute;
+    left: -9px;
+    bottom: -1px;
+  }
+  .hero-img-div {
+    position: relative;
+    margin: 0px 0px -35px 0px;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .blog-menu {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    width: 100%;
+  }
+  .blog-menu-link {
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  .blog-menu3 {
+    border: 0;
+  }
+  .blog-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 }
