@@ -144,6 +144,9 @@ footer hr {
 .social {
   text-align: center;
 }
+.social a {
+  text-decoration: none;
+}
 .fa-brands {
   color: white;
   font-size: 30px;
@@ -195,6 +198,7 @@ footer hr {
     justify-content: center;
     margin: 0;
     padding: 5px;
+    width: 100%;
   }
   .blog-menu {
     background-color: white;
@@ -208,6 +212,11 @@ footer hr {
   }
   .blog-menu3 {
     border: 0;
+  }
+  .main-match-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   footer {
@@ -260,7 +269,7 @@ footer hr {
   .blog-menu3 {
     border: 0;
   }
-  .blog-div {
+  .main-match-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
